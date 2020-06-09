@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.project.testCases.GroupBasedTest
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 1, Errors: 0, Skipped: 22, Time elapsed: 48.612 sec <<< FAILURE!
+updateTestCaseStatusAndTakeScreenshot(com.project.testCases.GroupBasedTest)  Time elapsed: 7.698 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.project.utilities.WriteExcelSheet.writeFile(WriteExcelSheet.java:30)
+	at com.project.testCases.GroupBasedTest.updateTestCaseStatusAndTakeScreenshot(GroupBasedTest.java:130)
+

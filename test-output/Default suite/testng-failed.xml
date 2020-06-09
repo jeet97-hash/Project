@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.project.testCases.GroupBasedTest">
+        <methods>
+          <include name="logOutSite"/>
+          <include name="selectSortBy"/>
+          <include name="advanceSearch"/>
+          <include name="displayCollectionAndFlushReport"/>
+          <include name="updateTestCaseStatusAndTakeScreenshotRegressionTest"/>
+          <include name="searchProduct"/>
+          <include name="endTest"/>
+          <include name="selectCategory"/>
+          <include name="setupTest"/>
+          <include name="updateTestCaseStatusAndTakeScreenshot"/>
+          <include name="testReportSetup"/>
+          <include name="flushReport"/>
+          <include name="loginSite"/>
+          <include name="selectExcludeOutOfStock"/>
+          <include name="setupSuit"/>
+          <include name="regressionTestReportSetup"/>
+          <include name="selectStorage"/>
+        </methods>
+      </class> <!-- com.project.testCases.GroupBasedTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

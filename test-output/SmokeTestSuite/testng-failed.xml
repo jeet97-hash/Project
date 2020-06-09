@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTestSuite]">
+  <listeners>
+    <listener class-name="com.project.automaticRerun.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="SmokeTest(failed)">
+    <classes>
+      <class name="com.project.testCases.SmokeTestCases">
+        <methods>
+          <include name="setupTest"/>
+          <include name="logOutSite"/>
+          <include name="updateTestCaseStatusAndTakeScreenshot"/>
+          <include name="testReportSetup"/>
+          <include name="displayCollectionAndFlushReport"/>
+          <include name="loginSite"/>
+          <include name="setupSuit"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.project.testCases.SmokeTestCases -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [SmokeTestSuite] -->

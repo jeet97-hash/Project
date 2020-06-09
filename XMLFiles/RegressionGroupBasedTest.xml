@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regressionSuite">
+  <listeners>
+  	<listener class-name="com.project.automaticRerun.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+   <groups>
+         <run>
+            <include name = "RegressionSuite"/>
+         </run>
+   </groups>
+   <classes>
+      <class name="com.project.testCases.GroupBasedTest"/>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

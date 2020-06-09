@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite">
+  <listeners>
+  	<listener class-name="com.project.automaticRerun.AnnotationTransformer"/>
+  </listeners>
+  <test name="SmokeTest">
+    <classes>
+      <class name="com.project.testCases.SmokeTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

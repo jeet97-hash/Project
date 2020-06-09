@@ -1,0 +1,1781 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">5 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-RegressionTestSuite">
+              <span class="suite-name border-passed">RegressionTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-RegressionTestSuite">
+                    <span>F:\Eclipse_Workspace\CTS_Project_BugBusters_Team8\XMLFiles\RegressionTestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-RegressionTestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-RegressionTestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-RegressionTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-RegressionTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-RegressionTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-RegressionTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RegressionTestSuite" class="hide-methods passed suite-RegressionTestSuite"> (hide)</a> <!-- hide-methods passed suite-RegressionTestSuite -->
+                      <a href="#" panel-name="suite-RegressionTestSuite" class="show-methods passed suite-RegressionTestSuite"> (show)</a> <!-- show-methods passed suite-RegressionTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-RegressionTestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTestSuite" title="com.project.testCases.RegressionTestCases" hash-for-method="checkGiftCard">checkGiftCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTestSuite" title="com.project.testCases.RegressionTestCases" hash-for-method="logOutSite">logOutSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTestSuite" title="com.project.testCases.RegressionTestCases" hash-for-method="loginSite">loginSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTestSuite" title="com.project.testCases.RegressionTestCases" hash-for-method="openURL">openURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTestSuite" title="com.project.testCases.RegressionTestCases" hash-for-method="searchProduct">searchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTestSuite" title="com.project.testCases.RegressionTestCases" hash-for-method="selectCategory">selectCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTestSuite" title="com.project.testCases.RegressionTestCases" hash-for-method="selectExcludeOutOfStock">selectExcludeOutOfStock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTestSuite" title="com.project.testCases.RegressionTestCases" hash-for-method="selectSortBy">selectSortBy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionTestSuite" title="com.project.testCases.RegressionTestCases" hash-for-method="selectStorage">selectStorage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegressionTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-smokeSuite">
+              <span class="suite-name border-passed">smokeSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-smokeSuite">
+                    <span>F:\Eclipse_Workspace\CTS_Project_BugBusters_Team8\XMLFiles\SmokeGroupBasedTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-smokeSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-smokeSuite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-smokeSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-smokeSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-smokeSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-smokeSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-smokeSuite" class="hide-methods passed suite-smokeSuite"> (hide)</a> <!-- hide-methods passed suite-smokeSuite -->
+                      <a href="#" panel-name="suite-smokeSuite" class="show-methods passed suite-smokeSuite"> (show)</a> <!-- show-methods passed suite-smokeSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-smokeSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="advanceSearch">advanceSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="giftPageOperation">giftPageOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="logOutSite">logOutSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="loginSite">loginSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="openURL">openURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-smokeSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="searchProduct">searchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-smokeSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SmokeTestSuite">
+              <span class="suite-name border-passed">SmokeTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SmokeTestSuite">
+                    <span>F:\Eclipse_Workspace\CTS_Project_BugBusters_Team8\XMLFiles\SmokeTestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SmokeTestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SmokeTestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SmokeTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SmokeTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SmokeTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SmokeTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SmokeTestSuite" class="hide-methods passed suite-SmokeTestSuite"> (hide)</a> <!-- hide-methods passed suite-SmokeTestSuite -->
+                      <a href="#" panel-name="suite-SmokeTestSuite" class="show-methods passed suite-SmokeTestSuite"> (show)</a> <!-- show-methods passed suite-SmokeTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SmokeTestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTestSuite" title="com.project.testCases.SmokeTestCases" hash-for-method="advanceSearch">advanceSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTestSuite" title="com.project.testCases.SmokeTestCases" hash-for-method="giftPageOperation">giftPageOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTestSuite" title="com.project.testCases.SmokeTestCases" hash-for-method="logOutSite">logOutSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTestSuite" title="com.project.testCases.SmokeTestCases" hash-for-method="loginSite">loginSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTestSuite" title="com.project.testCases.SmokeTestCases" hash-for-method="openURL">openURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmokeTestSuite" title="com.project.testCases.SmokeTestCases" hash-for-method="searchProduct">searchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SmokeTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-regressionSuite">
+              <span class="suite-name border-passed">regressionSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-regressionSuite">
+                    <span>F:\Eclipse_Workspace\CTS_Project_BugBusters_Team8\XMLFiles\RegressionGroupBasedTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-regressionSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-regressionSuite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-regressionSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-regressionSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-regressionSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-regressionSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-regressionSuite" class="hide-methods passed suite-regressionSuite"> (hide)</a> <!-- hide-methods passed suite-regressionSuite -->
+                      <a href="#" panel-name="suite-regressionSuite" class="show-methods passed suite-regressionSuite"> (show)</a> <!-- show-methods passed suite-regressionSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-regressionSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regressionSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="checkGiftCard">checkGiftCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regressionSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="logOutSite">logOutSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regressionSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="loginSite">loginSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regressionSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="openURL">openURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regressionSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="searchProduct">searchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regressionSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="selectCategory">selectCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regressionSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="selectExcludeOutOfStock">selectExcludeOutOfStock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regressionSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="selectSortBy">selectSortBy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-regressionSuite" title="com.project.testCases.GroupBasedTest" hash-for-method="selectStorage">selectStorage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-regressionSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RegressionTestSuite" class="panel RegressionTestSuite">
+          <div class="suite-RegressionTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.project.testCases.RegressionTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGiftCard">
+                  </a> <!-- checkGiftCard -->
+                  <span class="method-name">checkGiftCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutSite">
+                  </a> <!-- logOutSite -->
+                  <span class="method-name">logOutSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSite">
+                  </a> <!-- loginSite -->
+                  <span class="method-name">loginSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openURL">
+                  </a> <!-- openURL -->
+                  <span class="method-name">openURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct">
+                  </a> <!-- searchProduct -->
+                  <span class="method-name">searchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCategory">
+                  </a> <!-- selectCategory -->
+                  <span class="method-name">selectCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectExcludeOutOfStock">
+                  </a> <!-- selectExcludeOutOfStock -->
+                  <span class="method-name">selectExcludeOutOfStock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectSortBy">
+                  </a> <!-- selectSortBy -->
+                  <span class="method-name">selectSortBy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectStorage">
+                  </a> <!-- selectStorage -->
+                  <span class="method-name">selectStorage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTestSuite-class-passed -->
+        </div> <!-- panel RegressionTestSuite -->
+        <div panel-name="suite-smokeSuite" class="panel smokeSuite">
+          <div class="suite-smokeSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.project.testCases.GroupBasedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="advanceSearch">
+                  </a> <!-- advanceSearch -->
+                  <span class="method-name">advanceSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="giftPageOperation">
+                  </a> <!-- giftPageOperation -->
+                  <span class="method-name">giftPageOperation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutSite">
+                  </a> <!-- logOutSite -->
+                  <span class="method-name">logOutSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSite">
+                  </a> <!-- loginSite -->
+                  <span class="method-name">loginSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openURL">
+                  </a> <!-- openURL -->
+                  <span class="method-name">openURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct">
+                  </a> <!-- searchProduct -->
+                  <span class="method-name">searchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-smokeSuite-class-passed -->
+        </div> <!-- panel smokeSuite -->
+        <div panel-name="suite-SmokeTestSuite" class="panel SmokeTestSuite">
+          <div class="suite-SmokeTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.project.testCases.SmokeTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="advanceSearch">
+                  </a> <!-- advanceSearch -->
+                  <span class="method-name">advanceSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="giftPageOperation">
+                  </a> <!-- giftPageOperation -->
+                  <span class="method-name">giftPageOperation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutSite">
+                  </a> <!-- logOutSite -->
+                  <span class="method-name">logOutSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSite">
+                  </a> <!-- loginSite -->
+                  <span class="method-name">loginSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openURL">
+                  </a> <!-- openURL -->
+                  <span class="method-name">openURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct">
+                  </a> <!-- searchProduct -->
+                  <span class="method-name">searchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeTestSuite-class-passed -->
+        </div> <!-- panel SmokeTestSuite -->
+        <div panel-name="suite-allTestSuite" class="panel allTestSuite">
+        </div> <!-- panel allTestSuite -->
+        <div panel-name="suite-regressionSuite" class="panel regressionSuite">
+          <div class="suite-regressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.project.testCases.GroupBasedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGiftCard">
+                  </a> <!-- checkGiftCard -->
+                  <span class="method-name">checkGiftCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutSite">
+                  </a> <!-- logOutSite -->
+                  <span class="method-name">logOutSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSite">
+                  </a> <!-- loginSite -->
+                  <span class="method-name">loginSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openURL">
+                  </a> <!-- openURL -->
+                  <span class="method-name">openURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct">
+                  </a> <!-- searchProduct -->
+                  <span class="method-name">searchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCategory">
+                  </a> <!-- selectCategory -->
+                  <span class="method-name">selectCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectExcludeOutOfStock">
+                  </a> <!-- selectExcludeOutOfStock -->
+                  <span class="method-name">selectExcludeOutOfStock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectSortBy">
+                  </a> <!-- selectSortBy -->
+                  <span class="method-name">selectSortBy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectStorage">
+                  </a> <!-- selectStorage -->
+                  <span class="method-name">selectStorage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-regressionSuite-class-passed -->
+        </div> <!-- panel regressionSuite -->
+        <div panel-name="test-xml-RegressionTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Eclipse_Workspace\CTS_Project_BugBusters_Team8\XMLFiles\RegressionTestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;RegressionTestSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.project.automaticRerun.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;RegressionTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.project.testCases.RegressionTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegressionTest --&gt;
+&lt;/suite&gt; &lt;!-- RegressionTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-smokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Eclipse_Workspace\CTS_Project_BugBusters_Team8\XMLFiles\SmokeGroupBasedTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;smokeSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.project.automaticRerun.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;SmokeSuite&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.project.testCases.GroupBasedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- smokeSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-SmokeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Eclipse_Workspace\CTS_Project_BugBusters_Team8\XMLFiles\SmokeTestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;SmokeTestSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.project.automaticRerun.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;SmokeTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.project.testCases.SmokeTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SmokeTest --&gt;
+&lt;/suite&gt; &lt;!-- SmokeTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-allTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Eclipse_Workspace\CTS_Project_BugBusters_Team8\XMLFiles\GroupBasedTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;allTestSuite&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;SmokeGroupBasedTest.xml&quot;/&gt;
+    &lt;suite-file path=&quot;RegressionGroupBasedTest.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- allTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-regressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Eclipse_Workspace\CTS_Project_BugBusters_Team8\XMLFiles\RegressionGroupBasedTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;regressionSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.project.automaticRerun.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;RegressionSuite&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.project.testCases.GroupBasedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- regressionSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RegressionTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RegressionTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RegressionTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-smokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for smokeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SmokeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SmokeTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SmokeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-allTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for allTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-regressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for regressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RegressionTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RegressionTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-smokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for smokeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">RegressionSuite</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkGiftCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">logOutSite</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginSite</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">openURL</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCategory</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectExcludeOutOfStock</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectSortBy</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectStorage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SmokeSuite</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">advanceSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">giftPageOperation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">logOutSite</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginSite</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">openURL</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SmokeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SmokeTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-allTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for allTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-regressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for regressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">RegressionSuite</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkGiftCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">logOutSite</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginSite</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">openURL</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCategory</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectExcludeOutOfStock</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectSortBy</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectStorage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SmokeSuite</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">advanceSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">giftPageOperation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">logOutSite</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginSite</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">openURL</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RegressionTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RegressionTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RegressionTestSuite');
+function tableData_RegressionTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginSite')
+data.setCell(0, 2, 'com.project.testCases.RegressionTestCases')
+data.setCell(0, 3, 14740);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectSortBy')
+data.setCell(1, 2, 'com.project.testCases.RegressionTestCases')
+data.setCell(1, 3, 13068);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectExcludeOutOfStock')
+data.setCell(2, 2, 'com.project.testCases.RegressionTestCases')
+data.setCell(2, 3, 11308);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'selectStorage')
+data.setCell(3, 2, 'com.project.testCases.RegressionTestCases')
+data.setCell(3, 3, 11143);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkGiftCard')
+data.setCell(4, 2, 'com.project.testCases.RegressionTestCases')
+data.setCell(4, 3, 8704);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selectCategory')
+data.setCell(5, 2, 'com.project.testCases.RegressionTestCases')
+data.setCell(5, 3, 7597);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchProduct')
+data.setCell(6, 2, 'com.project.testCases.RegressionTestCases')
+data.setCell(6, 3, 5777);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'openURL')
+data.setCell(7, 2, 'com.project.testCases.RegressionTestCases')
+data.setCell(7, 3, 5601);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'logOutSite')
+data.setCell(8, 2, 'com.project.testCases.RegressionTestCases')
+data.setCell(8, 3, 1652);
+window.suiteTableData['RegressionTestSuite']= { tableData: data, tableDiv: 'times-div-RegressionTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-RegressionTestSuite">
+              </div> <!-- times-div-RegressionTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-smokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for smokeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_smokeSuite');
+function tableData_smokeSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginSite')
+data.setCell(0, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(0, 3, 14585);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'advanceSearch')
+data.setCell(1, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(1, 3, 14494);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'giftPageOperation')
+data.setCell(2, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(2, 3, 7177);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'openURL')
+data.setCell(3, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(3, 3, 5167);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchProduct')
+data.setCell(4, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(4, 3, 3693);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logOutSite')
+data.setCell(5, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(5, 3, 1399);
+window.suiteTableData['smokeSuite']= { tableData: data, tableDiv: 'times-div-smokeSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-smokeSuite">
+              </div> <!-- times-div-smokeSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SmokeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SmokeTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SmokeTestSuite');
+function tableData_SmokeTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'advanceSearch')
+data.setCell(0, 2, 'com.project.testCases.SmokeTestCases')
+data.setCell(0, 3, 14205);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginSite')
+data.setCell(1, 2, 'com.project.testCases.SmokeTestCases')
+data.setCell(1, 3, 13792);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'openURL')
+data.setCell(2, 2, 'com.project.testCases.SmokeTestCases')
+data.setCell(2, 3, 8597);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'giftPageOperation')
+data.setCell(3, 2, 'com.project.testCases.SmokeTestCases')
+data.setCell(3, 3, 7072);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchProduct')
+data.setCell(4, 2, 'com.project.testCases.SmokeTestCases')
+data.setCell(4, 3, 3636);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logOutSite')
+data.setCell(5, 2, 'com.project.testCases.SmokeTestCases')
+data.setCell(5, 3, 1700);
+window.suiteTableData['SmokeTestSuite']= { tableData: data, tableDiv: 'times-div-SmokeTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <div id="times-div-SmokeTestSuite">
+              </div> <!-- times-div-SmokeTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-allTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for allTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_allTestSuite');
+function tableData_allTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['allTestSuite']= { tableData: data, tableDiv: 'times-div-allTestSuite'}
+return data;
+}
+              </script>
+              <div id="times-div-allTestSuite">
+              </div> <!-- times-div-allTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-regressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for regressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_regressionSuite');
+function tableData_regressionSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginSite')
+data.setCell(0, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(0, 3, 14524);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectStorage')
+data.setCell(1, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(1, 3, 11954);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectExcludeOutOfStock')
+data.setCell(2, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(2, 3, 11784);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'selectSortBy')
+data.setCell(3, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(3, 3, 11387);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkGiftCard')
+data.setCell(4, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(4, 3, 8285);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selectCategory')
+data.setCell(5, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(5, 3, 7730);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'openURL')
+data.setCell(6, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(6, 3, 4520);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchProduct')
+data.setCell(7, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(7, 3, 3149);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'logOutSite')
+data.setCell(8, 2, 'com.project.testCases.GroupBasedTest')
+data.setCell(8, 3, 1908);
+window.suiteTableData['regressionSuite']= { tableData: data, tableDiv: 'times-div-regressionSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-regressionSuite">
+              </div> <!-- times-div-regressionSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RegressionTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RegressionTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-smokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for smokeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SmokeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SmokeTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-allTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for allTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-regressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for regressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RegressionTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-smokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.project.testCases.GroupBasedTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkGiftCard</span>
+                <br/>
+                <span class="ignored-method-name">selectSortBy</span>
+                <br/>
+                <span class="ignored-method-name">selectExcludeOutOfStock</span>
+                <br/>
+                <span class="ignored-method-name">selectCategory</span>
+                <br/>
+                <span class="ignored-method-name">selectStorage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SmokeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-allTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-regressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.project.testCases.GroupBasedTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">giftPageOperation</span>
+                <br/>
+                <span class="ignored-method-name">advanceSearch</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RegressionTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.project.testCases.RegressionTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">testReportSetup</span>
+                <span class="method-start">2262 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openURL</span>
+                <span class="method-start">2269 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=openURL status=SUCCESS method=RegressionTestCases.openURL()[pri:0, instance:com.pro...)</span>
+                <span class="method-start">7870 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginSite</span>
+                <span class="method-start">8721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=loginSite status=SUCCESS method=RegressionTestCases.loginSite()[pri:1, instance:com...)</span>
+                <span class="method-start">23461 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkGiftCard</span>
+                <span class="method-start">24319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=checkGiftCard status=SUCCESS method=RegressionTestCases.checkGiftCard()[pri:2, inst...)</span>
+                <span class="method-start">33023 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchProduct</span>
+                <span class="method-start">34641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=searchProduct status=SUCCESS method=RegressionTestCases.searchProduct()[pri:3, inst...)</span>
+                <span class="method-start">40419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectCategory</span>
+                <span class="method-start">41331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=selectCategory status=SUCCESS method=RegressionTestCases.selectCategory()[pri:4, in...)</span>
+                <span class="method-start">48928 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectStorage</span>
+                <span class="method-start">49806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=selectStorage status=SUCCESS method=RegressionTestCases.selectStorage()[pri:5, inst...)</span>
+                <span class="method-start">60949 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectExcludeOutOfStock</span>
+                <span class="method-start">61888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=selectExcludeOutOfStock status=SUCCESS method=RegressionTestCases.selectExcludeOutO...)</span>
+                <span class="method-start">73196 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectSortBy</span>
+                <span class="method-start">74096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=selectSortBy status=SUCCESS method=RegressionTestCases.selectSortBy()[pri:7, instan...)</span>
+                <span class="method-start">87164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">logOutSite</span>
+                <span class="method-start">88068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=logOutSite status=SUCCESS method=RegressionTestCases.logOutSite()[pri:8, instance:c...)</span>
+                <span class="method-start">89721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">flushReport</span>
+                <span class="method-start">90382 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">90484 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-smokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.project.testCases.GroupBasedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">testReportSetup</span>
+                <span class="method-start">2340 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openURL</span>
+                <span class="method-start">2345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=openURL status=SUCCESS method=GroupBasedTest.openURL()[pri:0, instance:com.project....)</span>
+                <span class="method-start">7513 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginSite</span>
+                <span class="method-start">8420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=loginSite status=SUCCESS method=GroupBasedTest.loginSite()[pri:1, instance:com.proj...)</span>
+                <span class="method-start">23006 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">giftPageOperation</span>
+                <span class="method-start">23964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=giftPageOperation status=SUCCESS method=GroupBasedTest.giftPageOperation()[pri:2, i...)</span>
+                <span class="method-start">31141 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchProduct</span>
+                <span class="method-start">32113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=searchProduct status=SUCCESS method=GroupBasedTest.searchProduct()[pri:3, instance:...)</span>
+                <span class="method-start">35807 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">advanceSearch</span>
+                <span class="method-start">36617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=advanceSearch status=SUCCESS method=GroupBasedTest.advanceSearch()[pri:4, instance:...)</span>
+                <span class="method-start">51112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">logOutSite</span>
+                <span class="method-start">52000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=logOutSite status=SUCCESS method=GroupBasedTest.logOutSite()[pri:8, instance:com.pr...)</span>
+                <span class="method-start">53399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">displayCollectionAndFlushReport</span>
+                <span class="method-start">54171 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">54663 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SmokeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.project.testCases.SmokeTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">757 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">testReportSetup</span>
+                <span class="method-start">3893 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openURL</span>
+                <span class="method-start">4019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=openURL status=SUCCESS method=SmokeTestCases.openURL()[pri:0, instance:com.project....)</span>
+                <span class="method-start">12617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginSite</span>
+                <span class="method-start">13873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=loginSite status=SUCCESS method=SmokeTestCases.loginSite()[pri:1, instance:com.proj...)</span>
+                <span class="method-start">27665 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">giftPageOperation</span>
+                <span class="method-start">28534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=giftPageOperation status=SUCCESS method=SmokeTestCases.giftPageOperation()[pri:2, i...)</span>
+                <span class="method-start">35606 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchProduct</span>
+                <span class="method-start">37262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=searchProduct status=SUCCESS method=SmokeTestCases.searchProduct()[pri:3, instance:...)</span>
+                <span class="method-start">40899 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">advanceSearch</span>
+                <span class="method-start">41970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=advanceSearch status=SUCCESS method=SmokeTestCases.advanceSearch()[pri:4, instance:...)</span>
+                <span class="method-start">56176 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">logOutSite</span>
+                <span class="method-start">57066 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshot([TestResult name=logOutSite status=SUCCESS method=SmokeTestCases.logOutSite()[pri:5, instance:com.pr...)</span>
+                <span class="method-start">58766 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">displayCollectionAndFlushReport</span>
+                <span class="method-start">59633 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">60227 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-allTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-regressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.project.testCases.GroupBasedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">regressionTestReportSetup</span>
+                <span class="method-start">2461 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openURL</span>
+                <span class="method-start">2466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshotRegressionTest([TestResult name=openURL status=SUCCESS method=GroupBasedTest.openURL()[pri:0, instance:com.project....)</span>
+                <span class="method-start">6986 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginSite</span>
+                <span class="method-start">7840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshotRegressionTest([TestResult name=loginSite status=SUCCESS method=GroupBasedTest.loginSite()[pri:1, instance:com.proj...)</span>
+                <span class="method-start">22365 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkGiftCard</span>
+                <span class="method-start">23080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshotRegressionTest([TestResult name=checkGiftCard status=SUCCESS method=GroupBasedTest.checkGiftCard()[pri:2, instance:...)</span>
+                <span class="method-start">31365 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchProduct</span>
+                <span class="method-start">32668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshotRegressionTest([TestResult name=searchProduct status=SUCCESS method=GroupBasedTest.searchProduct()[pri:3, instance:...)</span>
+                <span class="method-start">35818 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectCategory</span>
+                <span class="method-start">36520 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshotRegressionTest([TestResult name=selectCategory status=SUCCESS method=GroupBasedTest.selectCategory()[pri:4, instanc...)</span>
+                <span class="method-start">44250 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectStorage</span>
+                <span class="method-start">45115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshotRegressionTest([TestResult name=selectStorage status=SUCCESS method=GroupBasedTest.selectStorage()[pri:5, instance:...)</span>
+                <span class="method-start">57070 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectExcludeOutOfStock</span>
+                <span class="method-start">57911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshotRegressionTest([TestResult name=selectExcludeOutOfStock status=SUCCESS method=GroupBasedTest.selectExcludeOutOfStoc...)</span>
+                <span class="method-start">69696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectSortBy</span>
+                <span class="method-start">70608 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshotRegressionTest([TestResult name=selectSortBy status=SUCCESS method=GroupBasedTest.selectSortBy()[pri:7, instance:co...)</span>
+                <span class="method-start">81996 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">logOutSite</span>
+                <span class="method-start">82917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestCaseStatusAndTakeScreenshotRegressionTest([TestResult name=logOutSite status=SUCCESS method=GroupBasedTest.logOutSite()[pri:8, instance:com.pr...)</span>
+                <span class="method-start">84825 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">flushReport</span>
+                <span class="method-start">85612 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">85752 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

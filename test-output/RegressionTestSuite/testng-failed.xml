@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionTestSuite]">
+  <listeners>
+    <listener class-name="com.project.automaticRerun.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="RegressionTest(failed)">
+    <classes>
+      <class name="com.project.testCases.RegressionTestCases">
+        <methods>
+          <include name="setupTest"/>
+          <include name="loginSite"/>
+          <include name="selectSortBy"/>
+          <include name="setupSuit"/>
+          <include name="endTest"/>
+          <include name="updateTestCaseStatusAndTakeScreenshot"/>
+          <include name="testReportSetup"/>
+          <include name="flushReport"/>
+        </methods>
+      </class> <!-- com.project.testCases.RegressionTestCases -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [RegressionTestSuite] -->

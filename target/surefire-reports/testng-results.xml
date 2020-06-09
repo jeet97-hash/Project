@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="37" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionTestSuite" duration-ms="91157" started-at="2020-06-09T06:44:47Z" finished-at="2020-06-09T06:46:18Z">
+    <groups>
+    </groups>
+    <test name="RegressionTest" duration-ms="91157" started-at="2020-06-09T06:44:47Z" finished-at="2020-06-09T06:46:18Z">
+      <class name="com.project.testCases.RegressionTestCases">
+        <test-method status="PASS" signature="setupSuit()[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="setupSuit" is-config="true" duration-ms="54" started-at="2020-06-09T06:44:46Z" finished-at="2020-06-09T06:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="setupTest" is-config="true" duration-ms="2206" started-at="2020-06-09T06:44:47Z" finished-at="2020-06-09T06:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testReportSetup()[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="testReportSetup" is-config="true" duration-ms="6" started-at="2020-06-09T06:44:49Z" finished-at="2020-06-09T06:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReportSetup -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="openURL" duration-ms="5601" started-at="2020-06-09T06:44:49Z" finished-at="2020-06-09T06:44:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="851" started-at="2020-06-09T06:44:54Z" finished-at="2020-06-09T06:44:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openURL status=SUCCESS method=RegressionTestCases.openURL()[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="loginSite()[pri:1, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="loginSite" duration-ms="14740" started-at="2020-06-09T06:44:55Z" finished-at="2020-06-09T06:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSite -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="857" started-at="2020-06-09T06:45:10Z" finished-at="2020-06-09T06:45:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSite status=SUCCESS method=RegressionTestCases.loginSite()[pri:1, instance:com.project.testCases.RegressionTestCases@26f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="checkGiftCard()[pri:2, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="checkGiftCard" duration-ms="8704" started-at="2020-06-09T06:45:11Z" depends-on-methods="com.project.testCases.RegressionTestCases.loginSite" finished-at="2020-06-09T06:45:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGiftCard -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="1617" started-at="2020-06-09T06:45:19Z" finished-at="2020-06-09T06:45:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkGiftCard status=SUCCESS method=RegressionTestCases.checkGiftCard()[pri:2, instance:com.project.testCases.RegressionTestCases@26f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="searchProduct()[pri:3, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="searchProduct" duration-ms="5777" started-at="2020-06-09T06:45:21Z" depends-on-methods="com.project.testCases.RegressionTestCases.loginSite" finished-at="2020-06-09T06:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="911" started-at="2020-06-09T06:45:27Z" finished-at="2020-06-09T06:45:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=RegressionTestCases.searchProduct()[pri:3, instance:com.project.testCases.RegressionTestCases@26f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="selectCategory()[pri:4, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="selectCategory" duration-ms="7597" started-at="2020-06-09T06:45:28Z" depends-on-methods="com.project.testCases.RegressionTestCases.loginSite" finished-at="2020-06-09T06:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCategory -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="878" started-at="2020-06-09T06:45:35Z" finished-at="2020-06-09T06:45:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectCategory status=SUCCESS method=RegressionTestCases.selectCategory()[pri:4, instance:com.project.testCases.RegressionTestCases@26f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="selectStorage()[pri:5, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="selectStorage" duration-ms="11143" started-at="2020-06-09T06:45:36Z" depends-on-methods="com.project.testCases.RegressionTestCases.loginSite" finished-at="2020-06-09T06:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectStorage -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="938" started-at="2020-06-09T06:45:47Z" finished-at="2020-06-09T06:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectStorage status=SUCCESS method=RegressionTestCases.selectStorage()[pri:5, instance:com.project.testCases.RegressionTestCases@26f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="selectExcludeOutOfStock()[pri:6, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="selectExcludeOutOfStock" duration-ms="11308" started-at="2020-06-09T06:45:48Z" depends-on-methods="com.project.testCases.RegressionTestCases.loginSite" finished-at="2020-06-09T06:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectExcludeOutOfStock -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="899" started-at="2020-06-09T06:46:00Z" finished-at="2020-06-09T06:46:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectExcludeOutOfStock status=SUCCESS method=RegressionTestCases.selectExcludeOutOfStock()[pri:6, instance:com.project.testCases.RegressionTestCases@26f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="selectSortBy()[pri:7, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="selectSortBy" duration-ms="13068" started-at="2020-06-09T06:46:01Z" depends-on-methods="com.project.testCases.RegressionTestCases.loginSite" finished-at="2020-06-09T06:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSortBy -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="904" started-at="2020-06-09T06:46:14Z" finished-at="2020-06-09T06:46:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectSortBy status=SUCCESS method=RegressionTestCases.selectSortBy()[pri:7, instance:com.project.testCases.RegressionTestCases@26f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="logOutSite()[pri:8, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="logOutSite" duration-ms="1652" started-at="2020-06-09T06:46:15Z" depends-on-methods="com.project.testCases.RegressionTestCases.loginSite" finished-at="2020-06-09T06:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutSite -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="661" started-at="2020-06-09T06:46:16Z" finished-at="2020-06-09T06:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOutSite status=SUCCESS method=RegressionTestCases.logOutSite()[pri:8, instance:com.project.testCases.RegressionTestCases@26f67b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="flushReport" is-config="true" duration-ms="102" started-at="2020-06-09T06:46:17Z" finished-at="2020-06-09T06:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.project.testCases.RegressionTestCases@26f67b76]" name="endTest" is-config="true" duration-ms="728" started-at="2020-06-09T06:46:17Z" finished-at="2020-06-09T06:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.project.testCases.RegressionTestCases -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- RegressionTestSuite -->
+  <suite name="smokeSuite" duration-ms="55330" started-at="2020-06-09T06:46:18Z" finished-at="2020-06-09T06:47:13Z">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="GroupBasedTest.loginSite()[pri:1, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="loginSite" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.logOutSite()[pri:8, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="logOutSite" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.searchProduct()[pri:3, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="searchProduct" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.openURL()[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="openURL" class="com.project.testCases.GroupBasedTest"/>
+      </group> <!-- RegressionSuite -->
+      <group name="SmokeSuite">
+        <method signature="GroupBasedTest.loginSite()[pri:1, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="loginSite" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.giftPageOperation()[pri:2, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="giftPageOperation" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.logOutSite()[pri:8, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="logOutSite" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.searchProduct()[pri:3, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="searchProduct" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.advanceSearch()[pri:4, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="advanceSearch" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.openURL()[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="openURL" class="com.project.testCases.GroupBasedTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test name="Test" duration-ms="55330" started-at="2020-06-09T06:46:18Z" finished-at="2020-06-09T06:47:13Z">
+      <class name="com.project.testCases.GroupBasedTest">
+        <test-method status="PASS" signature="setupSuit()[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="setupSuit" is-config="true" duration-ms="38" started-at="2020-06-09T06:46:18Z" finished-at="2020-06-09T06:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="setupTest" is-config="true" duration-ms="2301" started-at="2020-06-09T06:46:18Z" finished-at="2020-06-09T06:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testReportSetup()[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="testReportSetup" is-config="true" duration-ms="4" started-at="2020-06-09T06:46:20Z" finished-at="2020-06-09T06:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReportSetup -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="openURL" duration-ms="5167" started-at="2020-06-09T06:46:20Z" finished-at="2020-06-09T06:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="907" started-at="2020-06-09T06:46:25Z" finished-at="2020-06-09T06:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openURL status=SUCCESS method=GroupBasedTest.openURL()[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="loginSite()[pri:1, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="loginSite" duration-ms="14585" started-at="2020-06-09T06:46:26Z" finished-at="2020-06-09T06:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSite -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="958" started-at="2020-06-09T06:46:41Z" finished-at="2020-06-09T06:46:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSite status=SUCCESS method=GroupBasedTest.loginSite()[pri:1, instance:com.project.testCases.GroupBasedTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="giftPageOperation()[pri:2, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="giftPageOperation" duration-ms="7177" started-at="2020-06-09T06:46:42Z" depends-on-methods="com.project.testCases.GroupBasedTest.loginSite" finished-at="2020-06-09T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftPageOperation -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="972" started-at="2020-06-09T06:46:49Z" finished-at="2020-06-09T06:46:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=giftPageOperation status=SUCCESS method=GroupBasedTest.giftPageOperation()[pri:2, instance:com.project.testCases.GroupBasedTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="searchProduct()[pri:3, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="searchProduct" duration-ms="3693" started-at="2020-06-09T06:46:50Z" depends-on-methods="com.project.testCases.GroupBasedTest.loginSite" finished-at="2020-06-09T06:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="809" started-at="2020-06-09T06:46:53Z" finished-at="2020-06-09T06:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=GroupBasedTest.searchProduct()[pri:3, instance:com.project.testCases.GroupBasedTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="advanceSearch()[pri:4, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="advanceSearch" duration-ms="14494" started-at="2020-06-09T06:46:54Z" depends-on-methods="com.project.testCases.GroupBasedTest.searchProduct" finished-at="2020-06-09T06:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advanceSearch -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="888" started-at="2020-06-09T06:47:09Z" finished-at="2020-06-09T06:47:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=advanceSearch status=SUCCESS method=GroupBasedTest.advanceSearch()[pri:4, instance:com.project.testCases.GroupBasedTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="logOutSite()[pri:8, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="logOutSite" duration-ms="1399" started-at="2020-06-09T06:47:10Z" depends-on-methods="com.project.testCases.GroupBasedTest.loginSite" finished-at="2020-06-09T06:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutSite -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="772" started-at="2020-06-09T06:47:11Z" finished-at="2020-06-09T06:47:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOutSite status=SUCCESS method=GroupBasedTest.logOutSite()[pri:8, instance:com.project.testCases.GroupBasedTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="displayCollectionAndFlushReport()[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="displayCollectionAndFlushReport" is-config="true" duration-ms="492" started-at="2020-06-09T06:47:12Z" finished-at="2020-06-09T06:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayCollectionAndFlushReport -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.project.testCases.GroupBasedTest@6276ae34]" name="endTest" is-config="true" duration-ms="705" started-at="2020-06-09T06:47:12Z" finished-at="2020-06-09T06:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.project.testCases.GroupBasedTest -->
+    </test> <!-- Test -->
+  </suite> <!-- smokeSuite -->
+  <suite name="SmokeTestSuite" duration-ms="60170" started-at="2020-06-09T06:43:46Z" finished-at="2020-06-09T06:44:46Z">
+    <groups>
+    </groups>
+    <test name="SmokeTest" duration-ms="60170" started-at="2020-06-09T06:43:46Z" finished-at="2020-06-09T06:44:46Z">
+      <class name="com.project.testCases.SmokeTestCases">
+        <test-method status="PASS" signature="setupSuit()[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="setupSuit" is-config="true" duration-ms="756" started-at="2020-06-09T06:43:45Z" finished-at="2020-06-09T06:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="setupTest" is-config="true" duration-ms="3126" started-at="2020-06-09T06:43:46Z" finished-at="2020-06-09T06:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testReportSetup()[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="testReportSetup" is-config="true" duration-ms="118" started-at="2020-06-09T06:43:49Z" finished-at="2020-06-09T06:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReportSetup -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="openURL" duration-ms="8597" started-at="2020-06-09T06:43:50Z" finished-at="2020-06-09T06:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="1254" started-at="2020-06-09T06:43:58Z" finished-at="2020-06-09T06:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openURL status=SUCCESS method=SmokeTestCases.openURL()[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="loginSite()[pri:1, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="loginSite" duration-ms="13792" started-at="2020-06-09T06:43:59Z" finished-at="2020-06-09T06:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSite -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="868" started-at="2020-06-09T06:44:13Z" finished-at="2020-06-09T06:44:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSite status=SUCCESS method=SmokeTestCases.loginSite()[pri:1, instance:com.project.testCases.SmokeTestCases@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="giftPageOperation()[pri:2, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="giftPageOperation" duration-ms="7072" started-at="2020-06-09T06:44:14Z" depends-on-methods="com.project.testCases.SmokeTestCases.loginSite" finished-at="2020-06-09T06:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftPageOperation -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="1655" started-at="2020-06-09T06:44:21Z" finished-at="2020-06-09T06:44:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=giftPageOperation status=SUCCESS method=SmokeTestCases.giftPageOperation()[pri:2, instance:com.project.testCases.SmokeTestCases@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="searchProduct()[pri:3, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="searchProduct" duration-ms="3636" started-at="2020-06-09T06:44:23Z" depends-on-methods="com.project.testCases.SmokeTestCases.loginSite" finished-at="2020-06-09T06:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="1070" started-at="2020-06-09T06:44:26Z" finished-at="2020-06-09T06:44:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=SmokeTestCases.searchProduct()[pri:3, instance:com.project.testCases.SmokeTestCases@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="advanceSearch()[pri:4, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="advanceSearch" duration-ms="14205" started-at="2020-06-09T06:44:27Z" depends-on-methods="com.project.testCases.SmokeTestCases.searchProduct" finished-at="2020-06-09T06:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advanceSearch -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="890" started-at="2020-06-09T06:44:42Z" finished-at="2020-06-09T06:44:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=advanceSearch status=SUCCESS method=SmokeTestCases.advanceSearch()[pri:4, instance:com.project.testCases.SmokeTestCases@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="logOutSite()[pri:5, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="logOutSite" duration-ms="1700" started-at="2020-06-09T06:44:43Z" depends-on-methods="com.project.testCases.SmokeTestCases.loginSite" finished-at="2020-06-09T06:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutSite -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="updateTestCaseStatusAndTakeScreenshot" is-config="true" duration-ms="866" started-at="2020-06-09T06:44:44Z" finished-at="2020-06-09T06:44:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOutSite status=SUCCESS method=SmokeTestCases.logOutSite()[pri:5, instance:com.project.testCases.SmokeTestCases@77b52d12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshot -->
+        <test-method status="PASS" signature="displayCollectionAndFlushReport()[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="displayCollectionAndFlushReport" is-config="true" duration-ms="594" started-at="2020-06-09T06:44:45Z" finished-at="2020-06-09T06:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayCollectionAndFlushReport -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.project.testCases.SmokeTestCases@77b52d12]" name="endTest" is-config="true" duration-ms="700" started-at="2020-06-09T06:44:46Z" finished-at="2020-06-09T06:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.project.testCases.SmokeTestCases -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- SmokeTestSuite -->
+  <suite name="allTestSuite" duration-ms="0" started-at="2020-06-09T06:48:40Z" finished-at="2020-06-09T06:48:40Z">
+    <groups>
+    </groups>
+  </suite> <!-- allTestSuite -->
+  <suite name="regressionSuite" duration-ms="86502" started-at="2020-06-09T06:47:13Z" finished-at="2020-06-09T06:48:40Z">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="GroupBasedTest.loginSite()[pri:1, instance:com.project.testCases.GroupBasedTest@2669b199]" name="loginSite" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.checkGiftCard()[pri:2, instance:com.project.testCases.GroupBasedTest@2669b199]" name="checkGiftCard" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.logOutSite()[pri:8, instance:com.project.testCases.GroupBasedTest@2669b199]" name="logOutSite" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.searchProduct()[pri:3, instance:com.project.testCases.GroupBasedTest@2669b199]" name="searchProduct" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.selectCategory()[pri:4, instance:com.project.testCases.GroupBasedTest@2669b199]" name="selectCategory" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.selectExcludeOutOfStock()[pri:6, instance:com.project.testCases.GroupBasedTest@2669b199]" name="selectExcludeOutOfStock" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.selectSortBy()[pri:7, instance:com.project.testCases.GroupBasedTest@2669b199]" name="selectSortBy" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.selectStorage()[pri:5, instance:com.project.testCases.GroupBasedTest@2669b199]" name="selectStorage" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.openURL()[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="openURL" class="com.project.testCases.GroupBasedTest"/>
+      </group> <!-- RegressionSuite -->
+      <group name="SmokeSuite">
+        <method signature="GroupBasedTest.loginSite()[pri:1, instance:com.project.testCases.GroupBasedTest@2669b199]" name="loginSite" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.logOutSite()[pri:8, instance:com.project.testCases.GroupBasedTest@2669b199]" name="logOutSite" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.searchProduct()[pri:3, instance:com.project.testCases.GroupBasedTest@2669b199]" name="searchProduct" class="com.project.testCases.GroupBasedTest"/>
+        <method signature="GroupBasedTest.openURL()[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="openURL" class="com.project.testCases.GroupBasedTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test name="Test" duration-ms="86502" started-at="2020-06-09T06:47:13Z" finished-at="2020-06-09T06:48:40Z">
+      <class name="com.project.testCases.GroupBasedTest">
+        <test-method status="PASS" signature="setupSuit()[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="setupSuit" is-config="true" duration-ms="38" started-at="2020-06-09T06:47:13Z" finished-at="2020-06-09T06:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="setupTest" is-config="true" duration-ms="2422" started-at="2020-06-09T06:47:13Z" finished-at="2020-06-09T06:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="regressionTestReportSetup()[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="regressionTestReportSetup" is-config="true" duration-ms="4" started-at="2020-06-09T06:47:16Z" finished-at="2020-06-09T06:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressionTestReportSetup -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="openURL" duration-ms="4520" started-at="2020-06-09T06:47:16Z" finished-at="2020-06-09T06:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshotRegressionTest(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="updateTestCaseStatusAndTakeScreenshotRegressionTest" is-config="true" duration-ms="853" started-at="2020-06-09T06:47:20Z" finished-at="2020-06-09T06:47:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openURL status=SUCCESS method=GroupBasedTest.openURL()[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshotRegressionTest -->
+        <test-method status="PASS" signature="loginSite()[pri:1, instance:com.project.testCases.GroupBasedTest@2669b199]" name="loginSite" duration-ms="14524" started-at="2020-06-09T06:47:21Z" finished-at="2020-06-09T06:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSite -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshotRegressionTest(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="updateTestCaseStatusAndTakeScreenshotRegressionTest" is-config="true" duration-ms="714" started-at="2020-06-09T06:47:35Z" finished-at="2020-06-09T06:47:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSite status=SUCCESS method=GroupBasedTest.loginSite()[pri:1, instance:com.project.testCases.GroupBasedTest@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshotRegressionTest -->
+        <test-method status="PASS" signature="checkGiftCard()[pri:2, instance:com.project.testCases.GroupBasedTest@2669b199]" name="checkGiftCard" duration-ms="8285" started-at="2020-06-09T06:47:36Z" depends-on-methods="com.project.testCases.GroupBasedTest.loginSite" finished-at="2020-06-09T06:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGiftCard -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshotRegressionTest(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="updateTestCaseStatusAndTakeScreenshotRegressionTest" is-config="true" duration-ms="1302" started-at="2020-06-09T06:47:44Z" finished-at="2020-06-09T06:47:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkGiftCard status=SUCCESS method=GroupBasedTest.checkGiftCard()[pri:2, instance:com.project.testCases.GroupBasedTest@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshotRegressionTest -->
+        <test-method status="PASS" signature="searchProduct()[pri:3, instance:com.project.testCases.GroupBasedTest@2669b199]" name="searchProduct" duration-ms="3149" started-at="2020-06-09T06:47:46Z" depends-on-methods="com.project.testCases.GroupBasedTest.loginSite" finished-at="2020-06-09T06:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshotRegressionTest(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="updateTestCaseStatusAndTakeScreenshotRegressionTest" is-config="true" duration-ms="702" started-at="2020-06-09T06:47:49Z" finished-at="2020-06-09T06:47:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=GroupBasedTest.searchProduct()[pri:3, instance:com.project.testCases.GroupBasedTest@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshotRegressionTest -->
+        <test-method status="PASS" signature="selectCategory()[pri:4, instance:com.project.testCases.GroupBasedTest@2669b199]" name="selectCategory" duration-ms="7730" started-at="2020-06-09T06:47:50Z" depends-on-methods="com.project.testCases.GroupBasedTest.loginSite" finished-at="2020-06-09T06:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCategory -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshotRegressionTest(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="updateTestCaseStatusAndTakeScreenshotRegressionTest" is-config="true" duration-ms="865" started-at="2020-06-09T06:47:57Z" finished-at="2020-06-09T06:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectCategory status=SUCCESS method=GroupBasedTest.selectCategory()[pri:4, instance:com.project.testCases.GroupBasedTest@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshotRegressionTest -->
+        <test-method status="PASS" signature="selectStorage()[pri:5, instance:com.project.testCases.GroupBasedTest@2669b199]" name="selectStorage" duration-ms="11954" started-at="2020-06-09T06:47:58Z" depends-on-methods="com.project.testCases.GroupBasedTest.loginSite" finished-at="2020-06-09T06:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectStorage -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshotRegressionTest(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="updateTestCaseStatusAndTakeScreenshotRegressionTest" is-config="true" duration-ms="841" started-at="2020-06-09T06:48:10Z" finished-at="2020-06-09T06:48:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectStorage status=SUCCESS method=GroupBasedTest.selectStorage()[pri:5, instance:com.project.testCases.GroupBasedTest@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshotRegressionTest -->
+        <test-method status="PASS" signature="selectExcludeOutOfStock()[pri:6, instance:com.project.testCases.GroupBasedTest@2669b199]" name="selectExcludeOutOfStock" duration-ms="11784" started-at="2020-06-09T06:48:11Z" depends-on-methods="com.project.testCases.GroupBasedTest.loginSite" finished-at="2020-06-09T06:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectExcludeOutOfStock -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshotRegressionTest(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="updateTestCaseStatusAndTakeScreenshotRegressionTest" is-config="true" duration-ms="912" started-at="2020-06-09T06:48:23Z" finished-at="2020-06-09T06:48:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectExcludeOutOfStock status=SUCCESS method=GroupBasedTest.selectExcludeOutOfStock()[pri:6, instance:com.project.testCases.GroupBasedTest@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshotRegressionTest -->
+        <test-method status="PASS" signature="selectSortBy()[pri:7, instance:com.project.testCases.GroupBasedTest@2669b199]" name="selectSortBy" duration-ms="11387" started-at="2020-06-09T06:48:24Z" depends-on-methods="com.project.testCases.GroupBasedTest.loginSite" finished-at="2020-06-09T06:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSortBy -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshotRegressionTest(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="updateTestCaseStatusAndTakeScreenshotRegressionTest" is-config="true" duration-ms="921" started-at="2020-06-09T06:48:35Z" finished-at="2020-06-09T06:48:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectSortBy status=SUCCESS method=GroupBasedTest.selectSortBy()[pri:7, instance:com.project.testCases.GroupBasedTest@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshotRegressionTest -->
+        <test-method status="PASS" signature="logOutSite()[pri:8, instance:com.project.testCases.GroupBasedTest@2669b199]" name="logOutSite" duration-ms="1908" started-at="2020-06-09T06:48:36Z" depends-on-methods="com.project.testCases.GroupBasedTest.loginSite" finished-at="2020-06-09T06:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutSite -->
+        <test-method status="PASS" signature="updateTestCaseStatusAndTakeScreenshotRegressionTest(org.testng.ITestResult)[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="updateTestCaseStatusAndTakeScreenshotRegressionTest" is-config="true" duration-ms="787" started-at="2020-06-09T06:48:38Z" finished-at="2020-06-09T06:48:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOutSite status=SUCCESS method=GroupBasedTest.logOutSite()[pri:8, instance:com.project.testCases.GroupBasedTest@2669b199] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestCaseStatusAndTakeScreenshotRegressionTest -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="flushReport" is-config="true" duration-ms="140" started-at="2020-06-09T06:48:39Z" finished-at="2020-06-09T06:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.project.testCases.GroupBasedTest@2669b199]" name="endTest" is-config="true" duration-ms="787" started-at="2020-06-09T06:48:39Z" finished-at="2020-06-09T06:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.project.testCases.GroupBasedTest -->
+    </test> <!-- Test -->
+  </suite> <!-- regressionSuite -->
+</testng-results>
